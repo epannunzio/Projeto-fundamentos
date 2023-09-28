@@ -9,7 +9,6 @@ body {
     height:500px;
     background-position: right center;
     background-size: cover;
-    border-top: 1px solid transparent;
 }
 
 .hero-content {
@@ -25,38 +24,9 @@ body {
 }
 
 .hero-content p {
-    background-color:rgba(0,0,0,0.7); 
-    display: inline-block;
-    padding:10px;
-    border-bottom: 2px solid white;
-}
-
-.hero nav ul {
-    text-align: right;
-    margin:10px 25px 0 0;
-}
-
-.hero nav li {
-    display: inline-block;
-    list-style: none;
-    border: 1px solid white;
-    margin-left: 10px;
-}
-
-.hero nav a {
-    padding:15px;
-    display: block;
-    background:rgba(0,0,0,0.2);
-    color:white;
-    text-decoration: none;
     text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 2px;
-}
-
-.hero nav a:hover {
-    background:rgba(0,0,0,0.5);
-    
+    font-size: 18px;
+    text-shadow: 3px 3px 2px #7e7e7e;
 }
 
 main {
@@ -66,46 +36,50 @@ main {
 
 .content-section {
     background-color: white;
-    padding: 10px;
-    margin-top: 15px;
-    overflow: auto;
-}
-
-.card {
-    width:32%;
-    float: left;
-    box-sizing: border-box;
-}
-
-.card-1, .card-2 {
-    margin-right: 2%;
-}
-
-.card img {
-    width:100%;
-    display: block;
-}
-
-.card p {
-    background-color:rgba(0,0,0,0.7);
-    color:white;
-    margin: 0;
     padding: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
-h2 {
+.content-section h2 {
     font-family: arial;
     background-color: silver;
+    padding: 10px;
     margin: 0;
-    padding:8px;
     border-bottom: 2px solid grey;
 }
 
 .content-section p {
     line-height: 1.5;
     font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff7c00;
+}
+
+.content-section-two {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.content-section-two h2 {
+    font-family: arial;
+    background-color: silver;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 2px solid grey;
+    text-transform: uppercase;
+}
+
+.content-section-two p {
+    line-height: 1.5;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0a5326;
 }
 
 .rodape {
@@ -118,7 +92,26 @@ h2 {
     padding-top: 30px;
 }
 
-.card {
-    
+.rodape a {
+    color: pink;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
+ul {
+    display: flex;
+    background-color: #ccc;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+ul a {
+    color: #000;
+    text-decoration: none;
+}
